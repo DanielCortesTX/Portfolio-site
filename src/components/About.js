@@ -8,7 +8,7 @@ export default function About() {
       <h1 className="display-4">About Me</h1>
       <div className="d-flex flex-row justify-content-between">
         <div className="card boundary half-and-half">
-          <img src={main} alt="No picture available" className="main-image-sizing"/>
+          <img src={main} alt="No available" className="main-image-sizing"/>
         </div>
         <div className="card boundary half-and-half">
           <p>Daniel is a developer specializing in the MERN stack.</p>
@@ -18,3 +18,5 @@ export default function About() {
     </div>
   )
 }
+
+// alt="No picture available"
