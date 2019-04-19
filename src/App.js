@@ -6,9 +6,22 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css';
 
+import { getActiveSites } from './utils/_DATA'
+
 class App extends Component {
   constructor(props){
     super(props)
+    this.state = {
+      activeSites: ''
+    }
+  }
+  componentDidMount(){
+    getActiveSites()
+      .then((activeSites) => {
+        this.setState(() => ({
+          activeSites
+        }))
+      })
   }
   render() {
     return (
