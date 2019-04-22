@@ -4,6 +4,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Loading from './components/misc/Loading'
 import './App.css';
 
 import { getActiveSites } from './utils/_DATA'
@@ -35,8 +36,8 @@ class App extends Component {
           </p>
         </header>
         <About />
-        {this.state.loading && <h1>Loading</h1>}
-        {!this.state.loading && <Projects />}
+        {this.state.loading && <Loading />}
+        {!this.state.loading && <Projects sites={this.state.activeSites}/>}
         <Contact />
         <Footer />
       </div>

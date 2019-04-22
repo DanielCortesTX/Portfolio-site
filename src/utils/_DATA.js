@@ -18,7 +18,7 @@ let activeSites = [
 
 export function getActiveSites (){
   return new Promise ((res, rej) => {
-    setTimeout(() => res({...activeSites}), 1000)
+    setTimeout(() => res(activeSites), 1000)
   })
 }
 
