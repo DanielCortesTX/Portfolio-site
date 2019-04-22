@@ -1,11 +1,12 @@
 import React from 'react'
+import ProjectLink from './ProjectLink'
 
 export default function Projects(props) {
   return (
     <div className="container boundary pb-3">
       <h1 className="display-4">Projects</h1>
-      <div>
-      {props.sites.map((site, index) => <h1 key={index}>test</h1>)}
+      <div class="d-flex flex-row">
+      {props.sites.map((site, index) => <ProjectLink key={index} site={site}>test</ProjectLink>)}
       </div>
     </div>
   )
