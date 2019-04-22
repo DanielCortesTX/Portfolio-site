@@ -12,14 +12,16 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      activeSites: ''
+      activeSites: '',
+      loading: true
     }
   }
   componentDidMount(){
     getActiveSites()
       .then((activeSites) => {
         this.setState(() => ({
-          activeSites
+          activeSites,
+          loading: false
         }))
       })
   }
@@ -33,7 +35,8 @@ class App extends Component {
           </p>
         </header>
         <About />
-        <Projects />
+        {this.state.loading && <h1>Loading</h1>}
+        {!this.state.loading && <Projects />}
         <Contact />
         <Footer />
       </div>
