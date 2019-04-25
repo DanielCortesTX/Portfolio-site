@@ -12,6 +12,13 @@ let activeSites = [
     description: "A recipe making application built off of javascript only. Web pack and babel to optimize functionality. Local storage is used for data. Styled with bootstrap 4 and some custom modifications.",
     link: "https://eager-hermann-f38d2c.netlify.com/",
     tech: ['javascript', 'webpack']
+  },
+  {
+    image: "",
+    title: "React/Redux Udacity nanodegree project",
+    description: "A polling application built off of react. Redux is used to optimize functionality. Starting data was provided and new data is stored in redux. Styled with bootstrap 4 and some custom modifications.",
+    link: "https://udacity-would-you.herokuapp.com/",
+    tech: ['react', 'redux']
   }
 ]
 
@@ -24,12 +31,6 @@ export function getActiveSites (){
 
 // AWAITING DEPLOYMENT
 
-// {
-//   image: "",
-//   title: "React/Redux Udacity nanodegree project",
-//   description: "A polling application built off of react. Redux is used to optimize functionality. Starting data was provided and new data is stored in redux. Styled with bootstrap 4 and some custom modifications.",
-//   link: "",
-//   tech: ['react', 'redux']
-// }
+
 
 // AWAITING DEPLOYMENT
