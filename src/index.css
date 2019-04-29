@@ -16,3 +16,8 @@ code {
 .project-link {
   width: 300px;
 }
+
+.pic-thumb {
+  /* width: 50px; */
+  height: 150px;
+}
