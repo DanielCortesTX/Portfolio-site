@@ -5,7 +5,7 @@ export default function Projects(props) {
   return (
     <div className="container boundary pb-3">
       <h1 className="display-4">Projects</h1>
-      <div class="d-flex flex-row">
+      <div className="d-flex flex-row justify-content-between">
       {props.sites.map((site, index) => <ProjectLink key={index} site={site}>test</ProjectLink>)}
       </div>
     </div>
