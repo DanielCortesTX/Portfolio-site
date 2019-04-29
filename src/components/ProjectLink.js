@@ -5,7 +5,7 @@ export default function ProjectLink(props) {
     <div className="card p-2 project-link">
       <img src={props.site.image} alt=""/>
       {props.site.title}
-      <a href={props.site.link} className="btn btn-primary m-1">View</a>
+      <a href={props.site.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary m-1">View</a>
     </div>
   )
 }
