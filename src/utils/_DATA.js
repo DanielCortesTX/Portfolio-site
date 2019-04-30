@@ -1,6 +1,7 @@
 // import { url } from "inspector";
 import mern from '../images/mernBlog.png';
 import jsRecipe from '../images/jsRecipe.png';
+import udacityRedux from '../images/udacityRedux.png'
 
 let activeSites = [
   {
@@ -18,7 +19,7 @@ let activeSites = [
     tech: ['javascript', 'webpack']
   },
   {
-    image: "",
+    image: udacityRedux,
     title: "React/Redux Udacity project",
     description: "A polling application built off of react. Redux is used to optimize functionality. Starting data was provided and new data is stored in redux. Styled with bootstrap 4 and some custom modifications.",
     link: "https://udacity-would-you.herokuapp.com/",
