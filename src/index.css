@@ -38,3 +38,7 @@ code {
 .link-overlay:hover {
   opacity: 1;
 }
+
+.skills-list {
+  list-style: none;
+}

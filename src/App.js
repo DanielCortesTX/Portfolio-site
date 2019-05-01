@@ -5,6 +5,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Loading from './components/misc/Loading'
+import Skills from './components/Skills'
 import './App.css';
 
 import { getActiveSites } from './utils/_DATA'
@@ -36,6 +37,7 @@ class App extends Component {
           </p>
         </header>
         <About />
+        <Skills />
         {this.state.loading && <Loading />}
         {!this.state.loading && <Projects sites={this.state.activeSites}/>}
         <Contact />
