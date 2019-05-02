@@ -42,3 +42,7 @@ code {
 .skills-list {
   list-style: none;
 }
+
+.skill-block {
+  width: 250px;
+}

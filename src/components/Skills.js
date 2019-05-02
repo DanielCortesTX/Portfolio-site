@@ -4,16 +4,34 @@ export default function Skills() {
   return (
     <div className="container boundary">
       <h1 className="display-4">Skills section</h1>
-      <ul className="d-flex flex-column align-items-start lead skills-list">
-        <li>Node.js</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>Javascript (Up to date with ES6)</li>
-        <li>Express.js</li>
-        <li>MongoDB</li>
-        <li>React.js</li>
-        <li>Redux</li>
-      </ul>   
+      <div className="d-flex flex-row justify-content-between p-4">
+        <div className="boundary skill-block">
+          <p className="mb-0 underline">General</p>
+          <hr/>
+          <ul className="d-flex flex-column align-items-start lead skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li> 
+          </ul> 
+        </div>
+        <div className="boundary skill-block">
+          <p className="mb-0">misc</p>
+          <hr/>
+          <ul className="d-flex flex-column align-items-start lead skills-list">
+            <li>MongoDB</li>
+            <li>Redux</li>
+            <li>Webpack</li>
+          </ul> 
+        </div>
+        <div className="boundary skill-block">
+          <p className="mb-0">Frameworks</p>
+          <hr/>
+          <ul className="d-flex flex-column align-items-start lead skills-list">
+            <li>Express.js</li>
+            <li>React.js</li>
+          </ul> 
+        </div>
+      </div>  
     </div>
   )
 }
