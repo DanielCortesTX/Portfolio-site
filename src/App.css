@@ -1,13 +1,7 @@
-.boundary {
-  border: 1px solid black;
-}
 
 .App {
   text-align: center;
-}
-
-.main-image-sizing {
-  height: 300px; 
+  margin: 0px;
 }
 
 .half-and-half {

@@ -46,3 +46,20 @@ code {
 .skill-block {
   width: 250px;
 }
+
+.main-image-sizing {
+  height: 350px; 
+}
+
+.about-mod {
+  max-width: 440px;
+}
+
+.test {
+  background-color: aqua;
+  margin: 0px;
+}
+
+.boundary {
+  border: 1px solid black;
+}
