@@ -3,10 +3,10 @@ import main from '../images/main.jpg'
 
 export default function About() {
   return (
-    <div className="test p-4">
+    <div className="about-gradient p-4">
     <div className="container">
-      <h1 className="display-4 mb-4">About Me</h1>
-      <div className="d-flex flex-row justify-content-around">
+    <h1 className="display-4 mb-4">Daniel Cortes Portfolio</h1>
+      <div className="d-flex flex-row justify-content-around mb-4">
         <div className="card boundary half-and-half ml-4 about-mod">
           <img src={main} alt="No available" className="main-image-sizing"/>
         </div>

@@ -55,11 +55,22 @@ code {
   max-width: 440px;
 }
 
-.test {
-  background-color: aqua;
+.about-gradient {
+  background-image: linear-gradient(to right, #cccccc, #0080ff);
   margin: 0px;
 }
 
 .boundary {
   border: 1px solid black;
+}
+
+.line-hr {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 1px solid black;
+}
+
+.list-header {
+  font-size: 1.25rem;
+  font-weight: 300;
 }
