@@ -87,3 +87,8 @@ code {
 .contact-link {
   color: #d6d6c2;
 }
+
+.contact-link:hover {
+  color: white;
+  text-shadow: 2px 2px 8px #0080ff;
+}
