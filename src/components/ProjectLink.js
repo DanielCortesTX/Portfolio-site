@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ProjectLink(props) {
   return (
-    <div className="card p-3 project-link">
+    <div className="card p-4 mb-3 project-link">
       {props.site.title}
       <div className="card my-4">
         <img src={props.site.image} alt="" className="pic-thumb"/>
