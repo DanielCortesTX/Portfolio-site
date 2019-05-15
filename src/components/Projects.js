@@ -6,7 +6,7 @@ export default function Projects(props) {
     <div className="stagger">
       <div className="container pb-4">
         <h1 className="display-4 py-4">Projects</h1>
-        <div className="d-flex flex-row justify-content-between">
+        <div className="d-flex flex-row flex-wrap justify-content-around">
           {props.sites.map((site, index) => <ProjectLink key={index} site={site}>test</ProjectLink>)}
         </div>
       </div>
