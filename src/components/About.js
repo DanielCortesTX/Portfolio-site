@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="about-gradient p-4">
     <div className="container">
-    <h1 className="display-4 mb-4">Daniel Cortes Portfolio</h1>
+    <h1 className="display-4 mb-4" id="header">Daniel Cortes Portfolio</h1>
       <div className="d-flex flex-row flex-wrap justify-content-around mt-2 mb-4">
         <div className="card boundary m-2 half-and-half about-mod">
           <img src={main} alt="No available" className="main-image-sizing"/>
