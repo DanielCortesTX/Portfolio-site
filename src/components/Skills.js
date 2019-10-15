@@ -20,6 +20,8 @@ export default function Skills() {
           <ul className="d-flex flex-column lead skills-list">
             <li>Express.js</li>
             <li>React.js</li>
+            <li>AngularJs</li>
+            <li>Angular 2</li>
           </ul> 
         </div>
         <div className="skill-block skills p-3">
