@@ -22,6 +22,7 @@ export default function Skills() {
           <p className="mb-0 list-header">Intermediate</p>
           <hr className="line-hr"/>
           <ul className="d-flex flex-column lead skills-list">
+            <li>React Native</li>
             <li>SCSS</li>
             <li>Webpack</li>
             <li>Bootstrap 4</li>
