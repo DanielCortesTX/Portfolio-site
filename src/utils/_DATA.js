@@ -8,7 +8,7 @@ let activeSites = [
     image: mern,
     title: "MERN Blog",
     description: "A Blog built off of the MERN stack. Uses redux, passport and jwt for improved functionality. Mongo Atlas is used for data storage. Styled with bootstrap 4.",
-    link: "https://floating-beyond-85717.herokuapp.com/",
+    link: "https://www.cortescorner.com/",
     github: "https://github.com/DanielCortesTX/Cortes-Blog",
     tech: ['react', 'redux', 'mongodb', 'node.js']
   },
