@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <div className="container p-4">
       <h1 className="display-4">Skills</h1>
-      <div className="d-flex flex-row flex-wrap mb-3 justify-content-around p-4">
+      <div className="mb-3 p-4 skills-body">
         <div className="skill-block skills p-3">
           <p className="mb-0 list-header">Advanced</p>
           <hr className="line-hr"/>
