@@ -18,6 +18,12 @@ code {
     monospace;
 }
 
+.projects-feed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .project-link {
   width: 350px;
 }
@@ -42,6 +48,21 @@ code {
 
 .link-overlay:hover {
   opacity: 1;
+}
+
+@media(max-width: 1200px){
+  .projects-feed {
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .project-link {
+    min-width: 350px;
+    width: 65%;
+    max-width: 500px;
+    margin: 1rem 0;
+  }
 }
 
 .skills-list {
