@@ -26,6 +26,7 @@ export default function Skills() {
             <li>SCSS</li>
             <li>Webpack</li>
             <li>Bootstrap 4</li>
+            <li>Responsive Web Design</li>
             <li>Git</li>
           </ul> 
         </div>

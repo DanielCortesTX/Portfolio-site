@@ -183,7 +183,7 @@ code {
   }
 }
 
-@media(max-width: 800px){
+@media(max-width: 762px){
   .skills-body {
     flex-direction: column;
     /* color: green; */
