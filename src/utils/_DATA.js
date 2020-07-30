@@ -5,7 +5,7 @@ import udacityRedux from '../images/udacityRedux.png'
 
 let activeSites = [
   {
-    image: mern,
+    image: require('../images/mernBlog.png'),
     title: "MERN Blog",
     description: "A Blog built off of the MERN stack. Uses redux, passport and jwt for improved functionality. Mongo Atlas is used for data storage. Styled with bootstrap 4.",
     link: "https://www.cortescorner.com/",
