@@ -3,9 +3,9 @@ import React from 'react'
 export default function Skills() {
   return (
     <div className="container p-4">
-      <h1 className="display-4">Skills</h1>
+      <h1 className="display-4 text-center">Skills</h1>
       <div className="mb-3 p-4 skills-body">
-        <div className="skill-block skills p-3">
+        <div className="skill-block skills p-3 text-center">
           <p className="mb-0 list-header">Advanced</p>
           <hr className="line-hr"/>
           <ul className="d-flex flex-column  lead skills-list">
@@ -18,7 +18,7 @@ export default function Skills() {
             <li>Redux</li>
           </ul>
         </div>
-        <div className="skill-block p-3">
+        <div className="skill-block p-3 text-center">
           <p className="mb-0 list-header">Intermediate</p>
           <hr className="line-hr"/>
           <ul className="d-flex flex-column lead skills-list">
@@ -30,7 +30,7 @@ export default function Skills() {
             <li>Git</li>
           </ul> 
         </div>
-        <div className="skill-block skills p-3">
+        <div className="skill-block skills p-3 text-center">
           <p className="mb-0 list-header">Familiar</p>
           <hr className="line-hr"/>
           <ul className="d-flex flex-column lead skills-list">

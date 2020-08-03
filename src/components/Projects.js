@@ -3,7 +3,7 @@ import ProjectLink from './ProjectLink'
 
 export default function Projects(props) {
   return (
-    <div className="stagger">
+    <div className="stagger text-center">
       <div className="container pb-4">
         <h1 className="display-4 py-4">Projects</h1>
         <div className="projects-feed">
