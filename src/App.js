@@ -32,7 +32,6 @@ class App extends Component {
         <Skills />
         {this.state.loading && <Loading />}
         {!this.state.loading && <Projects sites={this.state.activeSites}/>}
-        
         <Footer />
       </div>
     );

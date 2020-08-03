@@ -12,11 +12,6 @@ body {
   margin: 0;
   padding: 0;
 }
-/* 
-.App {
-  text-align: center;
-  margin: 0px;
-} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -143,14 +138,13 @@ code {
 
 .about-gradient {
   background-image: linear-gradient(to right, #cccccc, #0080ff);
-  margin: 0px;
 }
 
 .about {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
+  justify-content: space-around;
 }
 
 .half-and-half {
@@ -158,12 +152,12 @@ code {
 }
 
 .about-mod {
-  max-width: 440px;
-  padding: 0
+  max-width: 500px;
+  padding: 0;
 }
 
 .main-image-sizing {
-  height: 350px; 
+  height: 450px; 
   background-size: 100%
 }
 

@@ -9,7 +9,7 @@ let activeSites = [
     tech: ['react', 'redux', 'mongodb', 'node.js']
   },
   {
-    image: require('../images/mernBlog.png'),
+    image: require('../images/jsRecipe.png'),
     title: "Javascript Recipe App",
     description: "A recipe making application built off of javascript only. Web pack and babel to optimize functionality. Local storage is used for data. Styled with bootstrap 4 and some custom modifications.",
     link: "https://eager-hermann-f38d2c.netlify.com/",
