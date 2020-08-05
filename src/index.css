@@ -152,7 +152,7 @@ code {
 }
 
 .about-mod {
-  max-width: 500px;
+  max-width: 580px;
   padding: 0;
 }
 
@@ -216,5 +216,13 @@ code {
 
   .project-link {
     width: 100%;
+  }
+
+  .main-image-sizing {
+    height: 350px; 
+  }
+
+  .about-mod {
+    max-width: 466px;
   }
 }

@@ -9,10 +9,10 @@ export default function About() {
         </div>
 
         <div className="row mb-4 about">
-          <div className="col-10 col-md-5 card boundary about-mod">
+          <div className="col-10 col-md-6 card boundary about-mod">
             <img src={main} alt="No available" className="main-image-sizing"/>
           </div>
-          <div className="col-10 col-md-5  card boundary half-and-half  about-mod">
+          <div className="col-10 col-md-6 card boundary half-and-half  about-mod">
             <p className="p-4 lead">Daniel is a developer specializing in the MERN stack. After having self studied from courses taught by developers like Andrew Mead, Brad Traversy and Colt Steele, Daniel Graduated from Udactiy's React nanodegree program. </p>
           </div>
         </div>
