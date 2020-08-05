@@ -13,7 +13,7 @@ export default function About() {
             <img src={main} alt="No available" className="main-image-sizing"/>
           </div>
           <div className="col-10 col-md-6 card boundary half-and-half  about-mod">
-            <p className="p-4 lead">Daniel is a developer specializing in the MERN stack. After having self studied from courses taught by developers like Andrew Mead, Brad Traversy and Colt Steele, Daniel Graduated from Udactiy's React nanodegree program. </p>
+            <p className="p-4 lead">Daniel is a developer specializing in the MERN stack. After having self studied from courses taught by developers like Andrew Mead, Brad Traversy and Colt Steele, Daniel Graduated from Udactiy's React nanodegree program. Since March 2020, Daniel has been a Bootcamp Coding Instructor with Nucamp</p>
           </div>
         </div>
       
