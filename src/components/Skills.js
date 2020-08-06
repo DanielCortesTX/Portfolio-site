@@ -8,7 +8,7 @@ export default function Skills() {
         <div className="skill-block skills p-3 text-center">
           <p className="mb-0 list-header">Advanced</p>
           <hr className="line-hr"/>
-          <ul className="d-flex flex-column  lead skills-list">
+          <ul className="d-flex flex-column lead skills-list">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Javascript (ES8)</li>

@@ -50,31 +50,8 @@ code {
   opacity: 1;
 }
 
-.skills-list {
-  list-style: none;
-}
-
-.skill-block {
-  width: 250px;
-}
-
-.line-hr {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: 1px solid black;
-}
-
-.list-header {
-  font-size: 1.25rem;
-  font-weight: 300;
-}
-
 .stagger {
   background: #ffffe6;
-}
-
-.skills {
-  background: #e0e0d1;
 }
 
 .contact-link {
@@ -91,7 +68,7 @@ code {
 }
 
 
-/* loader animation */
+/* LOADER ANIMATION */
 
 .loader {
   border: 16px solid black;
@@ -127,13 +104,6 @@ code {
   }
 }
 
-.skills-body {
-  display: flex;
-  flex-direction: row;
-  /* flex-wrap: wrap; */
-  justify-content: space-between;
-}
-
 /* ABOUT COMPONENT */
 
 .about-gradient {
@@ -163,6 +133,38 @@ code {
 
 .boundary {
   border: 1px solid black;
+}
+
+/* SKILLS COMPONENT */
+
+.skills-body {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+.skill-block {
+  width: 250px;
+}
+
+.skills {
+  background: #e0e0d1;
+}
+
+.list-header {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.line-hr {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 1px solid black;
+}
+
+.skills-list {
+  list-style: none;
 }
 
 /* BREAKPOINTS */
