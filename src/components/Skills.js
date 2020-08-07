@@ -6,7 +6,7 @@ export default function Skills() {
       <h1 className="display-4 text-center">Skills</h1>
       <div className="mb-3 p-4 skills-body">
 
-        <div className="skill-block skills p-3 text-center boundary">
+        <div className="skill-block p-3 text-center boundary">
           <p className="mb-0 list-header">Advanced</p>
           <hr className="line-hr"/>
           <ul className="d-flex flex-column lead skills-list">
@@ -20,7 +20,7 @@ export default function Skills() {
           </ul>
         </div>
 
-        <div className="skill-block skills p-3 text-center boundary">
+        <div className="skill-block p-3 text-center boundary">
           <p className="mb-0 list-header">Intermediate</p>
           <hr className="line-hr"/>
           <ul className="d-flex flex-column lead skills-list">
