@@ -140,15 +140,11 @@ code {
 .skills-body {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 
 .skill-block {
   width: 250px;
-}
-
-.skills {
   background: #e0e0d1;
 }
 
@@ -184,18 +180,31 @@ code {
 }
 
 @media(max-width: 992px){
-  .skills-body {
+  /* .skills-body {
     flex-direction: column;
     justify-content: center;
-  }
+    align-items: center;
+    flex-wrap: wrap;
+  } */
 
   .skill-block {
-    width: 100%;
+    /* width: 100%; */
   }
 
 }
 
 @media (max-width: 768px){
+  .skills-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .skill-block {
+    margin: 20px 0px;
+  }
+
   .project-link {
     width: 100%;
   }
