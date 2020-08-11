@@ -4,6 +4,7 @@ import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Loading from './components/misc/Loading'
 import Skills from './components/Skills'
+import './styles/App.scss'
 import './App.css';
 
 import { getActiveSites } from './utils/_DATA'
