@@ -1,0 +1,39 @@
+/* PROJECTS COMPONENT */
+
+.stagger {
+  background: #ffffe6;
+}
+
+.projects-feed {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* PROJECT LINK */
+
+.project-link {
+  width: 350px;
+}
+
+.pic-thumb {
+  height: 200px;
+}
+
+.link-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #007bff;
+}
+
+.link-overlay:hover {
+  opacity: 1;
+}
