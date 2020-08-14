@@ -25,3 +25,18 @@
 .skills-list {
   list-style: none;
 }
+
+// BREAK POINTS
+
+@media (max-width: 768px){
+  .skills-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .skill-block {
+    margin: 20px 0px;
+  }
+}
