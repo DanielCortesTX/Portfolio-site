@@ -32,11 +32,15 @@
   opacity: 0;
   transition: 0.5s ease;
   background-color: #007bff;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
-.link-overlay:hover {
-  opacity: 1;
-}
+// .link-overlay:hover {
+//   opacity: 1;
+// }
 
 // BREAK POINTS
 
