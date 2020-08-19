@@ -9,24 +9,20 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  div {
+    max-width: 580px;
+    padding: 0;
+  }
 }
 
 .half-and-half {
   width: 50%;
 }
 
-.about-mod {
-  max-width: 580px;
-  padding: 0;
-}
-
 .main-image-sizing {
   height: 450px; 
   background-size: 100%
-}
-
-.boundary {
-  border: 1px solid black;
 }
 
 // BREAK POINTS 
@@ -36,7 +32,9 @@
     height: 350px; 
   }
 
-  .about-mod {
-    max-width: 466px;
+  .about{
+    div {
+      max-width: 466px;
+    }
   }
 }
