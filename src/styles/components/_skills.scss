@@ -9,21 +9,24 @@
 .skill-block {
   width: 250px;
   background: #e0e0d1;
-}
+  text-align: center;
 
-.list-header {
-  font-size: 1.25rem;
-  font-weight: 300;
-}
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
 
-.line-hr {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: 1px solid black;
-}
+  hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid black;
+  }
 
-.skills-list {
-  list-style: none;
+  p {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
 }
 
 // BREAK POINTS

@@ -6,10 +6,10 @@ export default function Skills() {
       <h1 className="display-4 text-center">Skills</h1>
       <div className="mb-3 p-4 skills-body">
 
-        <div className="skill-block p-3 text-center boundary">
-          <p className="mb-0 list-header">Advanced</p>
-          <hr className="line-hr"/>
-          <ul className="d-flex flex-column lead skills-list">
+        <div className="skill-block p-3 boundary">
+          <p className="mb-0">Advanced</p>
+          <hr/>
+          <ul className="lead">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Javascript (ES8)</li>
@@ -20,10 +20,10 @@ export default function Skills() {
           </ul>
         </div>
 
-        <div className="skill-block p-3 text-center boundary">
-          <p className="mb-0 list-header">Intermediate</p>
-          <hr className="line-hr"/>
-          <ul className="d-flex flex-column lead skills-list">
+        <div className="skill-block p-3 boundary">
+          <p className="mb-0">Intermediate</p>
+          <hr/>
+          <ul className="lead">
             <li>React Native</li>
             <li>SCSS</li>
             <li>Webpack</li>
@@ -33,10 +33,10 @@ export default function Skills() {
           </ul> 
         </div>
 
-        <div className="skill-block skills p-3 text-center boundary">
-          <p className="mb-0 list-header">Familiar</p>
-          <hr className="line-hr"/>
-          <ul className="d-flex flex-column lead skills-list">
+        <div className="skill-block p-3 boundary">
+          <p className="mb-0">Familiar</p>
+          <hr/>
+          <ul className="lead">
             <li>Angular 2</li>
             <li>Angular Js</li>
             <li>PHP</li>
