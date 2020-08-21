@@ -24,6 +24,12 @@ let activeSites = [
     github: "https://github.com/DanielCortesTX/udacity-would-you-project",
     tech: ['react', 'redux']
   }
+  // {
+  //   title: "Quote Me On It",
+  //   description: "A MERN app to keep record of your favorite quotes",
+  //   link: "https://immense-depths-28700.herokuapp.com/",
+  //   tech: ['react', 'redux']
+  // }
 ]
 
 
